@@ -1,0 +1,54 @@
+/* SPDX-License-Identifier: MIT */
+/* SPDX-FileCopyrightText: 2025 Pavol Babinčák */
+
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .plate-char {
+    display: inline-block;
+    text-align: center;
+    width: 2rem;
+    font-family: monospace;
+  }
+
+  .plate-separator {
+    display: inline-block;
+    text-align: center;
+    width: 1rem;
+    font-family: monospace;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .vowel-char {
+    display: inline-block;
+    text-align: center;
+    width: 2rem;
+    font-family: monospace;
+  }
+
+  .vowel-middle {
+    display: inline-block;
+    text-align: center;
+    width: 3rem; /* Character width (2rem) + separator width (1rem) */
+    font-family: monospace;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+}

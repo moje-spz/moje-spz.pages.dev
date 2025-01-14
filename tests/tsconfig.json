@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "@playwright/test",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
+    "moduleResolution": "node"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "../src/tests/**/*.ts",
+    "../src/tests/**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

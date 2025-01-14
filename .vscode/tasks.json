@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "start-dev-server",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*vite.*$",
+          "endsPattern": "^.*ready in.*$"
+        }
+      }
+    },
+    {
+      "label": "Type Check Watch",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "check:watch"
+      ],
+      "isBackground": true,
+      "problemMatcher": {
+        "base": "$tsc-watch",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "svelte-check",
+          "endsPattern": "Watching for file changes..."
+        }
+      }
+    }
+  ]
+}

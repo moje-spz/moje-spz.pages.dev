@@ -1,0 +1,272 @@
+{
+  "appTitle": "My Czech Registration Plate",
+  "icons": {
+    "bookmark": "Save",
+    "bookmarkFilled": "Saved",
+    "check": "Copied"
+  },
+  "settings": {
+    "title": "Settings",
+    "plateAvailability": {
+      "label": "Plate Availability Data",
+      "noData": "No plate availability data, ",
+      "noDataTitle": "No plate availability data",
+      "setup": "setup it here",
+      "dataAvailable": "Available plate numbers up to date: {date}.",
+      "update": "Update"
+    }
+  },
+  "common": {
+    "close": "Close"
+  },
+  "input": {
+    "placeholder": "Enter text for a plate..."
+  },
+  "saved": {
+    "title": "Saved plates",
+    "empty": "No saved plates",
+    "delete": "Delete",
+    "deleteAll": "Delete all"
+  },
+  "menu": {
+    "about": "About",
+    "savedPlates": "Saved plates",
+    "toggle": "Toggle menu",
+    "close": "Close menu",
+    "open": "Open menu",
+    "label": "Navigation menu",
+    "closeOverlay": "Close menu"
+  },
+  "AboutInline": {
+    "title": "Design your custom registration plate"
+  },
+  "AboutIntro": [
+    "From your input word or short text, this page will show you how a custom registration plate for personal cars in the Czech Republic could look.",
+    "The page checks certain requirements for the form and structure of plates and sometimes corrects or resolves violations of required properties."
+  ],
+  "AboutDetails": [
+    {
+      "type": "ul",
+      "content": [
+        "input text is displayed in capital letters on the plate",
+        "the plate is visually divided into two parts (3 and 5 positions)",
+        "characters other than letters and numbers are omitted",
+        "diacritical marks (caron, comma, ring, etc.) are removed from letters",
+        "invalid letters on the plate are automatically replaced with similar-looking numbers",
+        "if at least one number is missing on the plate, a number is automatically added",
+        "tries to avoid plates starting with EL",
+        "input shorter than 8 characters is filled with additional characters",
+        "input longer than 8 characters is shortened by omitting vowels"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "The page, however, does not check these requirements:"
+    },
+    {
+      "type": "ul",
+      "content": [
+        "the plate must not \"contain vulgar or offensive expressions\"",
+        "requirements for motorcycle plates (7 characters) and moped plates (5 characters)"
+      ]
+    },
+    {
+      "type": "p_and_a",
+      "content": [
+        {
+          "type": "plain",
+          "text": "The page is "
+        },
+        {
+          "type": "a",
+          "href": "https://github.com/registracni-znacka-na-prani",
+          "text": "open source"
+        },
+        {
+          "type": "plain",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "expandableDetails": {
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "aboutModal": {
+    "title": "About",
+    "button": "About",
+    "footer": {
+      "aboutLink": "About this page",
+      "plateDataDate": "Plate availability as of: {date}",
+      "uploadPlateData": "Upload plate data"
+    },
+    "portalLink": {
+      "prefix": "For getting a custom registration plate, continue to",
+      "linkText": "Registrační značka na přání on the Public administration portal",
+      "url": "https://pruvodce.gov.cz/porizeni-vozidla/registracni-znacka-na-prani",
+      "postfix": "."
+    }
+  },
+  "hamburgerMenu": {
+    "open": "Open menu",
+    "close": "Close menu",
+    "label": "Navigation menu",
+    "closeOverlay": "Close menu overlay",
+    "closeButton": "Close menu button"
+  },
+  "languageSelector": {
+    "label": "Language",
+    "auto": "Automatic",
+    "en": "English",
+    "cs": "Czech"
+  },
+  "themeToggle": {
+    "label": "Theme",
+    "auto": "Automatic",
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "inputSection": {
+    "label": "Input",
+    "placeholder": "Text for a registration plate",
+    "hideLarge": "Hide large input",
+    "showLarge": "Show large input",
+    "addPlate": "Add another plate",
+    "addPlateDisabledTitle": "Fill in the current plate first",
+    "removePlate": "Remove plate section",
+    "clearInput": "Clear input",
+    "warnings": {
+      "diacritics": "Text contains diacritics",
+      "symbols": "Text contains symbols",
+      "whitespace": "Text contains spaces",
+      "maxLines": "Maximum number of lines exceeded",
+      "nonLatin": "Text contains non-Latin characters"
+    },
+    "errors": {
+      "nonLatin": "Non-Latin characters are not allowed",
+      "invalidChars": "Invalid characters found",
+      "noNumber": "At least one number is required",
+      "vowelPlacement": "Invalid vowel placement",
+      "tooLong": "Input is too long",
+      "adjacentSkippedVowels": "Cannot have two skipped vowels next to each other",
+      "tooManyConsonants": "Too many consonants for registration plate",
+      "noPositionForNumber": "Cannot create valid plate: no position for required number"
+    }
+  },
+  "multiLineInput": {
+    "multipleLink": "Enter multiple plates at once"
+  },
+  "multiLineInputModal": {
+    "title": "Multiple plates",
+    "placeholder": "Enter text for more plates...",
+    "help": "Enter up to 10 plates, one per line.",
+    "ok": "OK",
+    "cancel": "Cancel"
+  },
+  "resultsSection": {
+    "title": "Results",
+    "removedVowels": "Removed vowels",
+    "invalidInput": "Invalid input"
+  },
+  "savedPlates": {
+    "title": "Saved plates",
+    "empty": "No saved plates yet",
+    "clear": "Clear saved plates",
+    "copy": "Copy",
+    "copyAll": "Copy all",
+    "remove": "Remove",
+    "input": "Input",
+    "plate": "Plate",
+    "date": "Date",
+    "vowels": "Vowels",
+    "status": "Status"
+  },
+  "plateDisplay": {
+    "copyToClipboard": "Copy to clipboard",
+    "savePlate": "Save plate",
+    "alreadySaved": "Plate already saved",
+    "displaySavedPlate": "Display saved plate number",
+    "changeInInputError": "This character comes from input and cannot be changed.",
+    "changeInInputTip": "Change the character in the input.",
+    "diacriticsWarning": "Diacritical marks have been removed from letters",
+    "shiftButton": {
+      "boundaryReachedLeft": "Cannot shift left - reached start of plate",
+      "boundaryReachedRight": "Cannot shift right - reached end of plate",
+      "nonPaddingCharFoundLeft": "Cannot shift left - blocked by another character",
+      "nonPaddingCharFoundRight": "Cannot shift right - blocked by another character"
+    },
+    "dragToShift": "Drag to shift characters",
+    "plateAvailable": "Plate number might be available",
+    "plateUnavailable": "Plate number not available - it is already {state}",
+    "state": "state",
+    "uploadCsvToCheck": "Upload CSV file to check plate availability",
+    "noData": "No availability data",
+    "available": "Available",
+    "unavailable": "Not available - {state}",
+    "errors": {
+      "invalidVersion": "Invalid data version",
+      "invalidDataStructure": "Invalid data structure",
+      "invalidData": "Invalid data format",
+      "unknown": "Unknown error",
+      "emptyFile": "File is empty or has no data rows"
+    },
+    "defaultPaddingChar": "Padding",
+    "defaultPaddingCharAuto": "Auto (first available)"
+  },
+  "csvUpload": {
+    "title": "Plate availability data",
+    "dropInstructions": "Drop a CSV file here",
+    "instructions": {
+      "intro": "Download a csv with issued and reserved plate numbers through link \"Výpis vydaných a rezervovaných RZP\" from",
+      "linkText": "Vyhledávání v Registru silničních vozidel",
+      "url": "https://dataovozidlech.cz/vyhledavani",
+      "outro": "and save it locally to your browser by uploading below."
+    },
+    "selectFile": "Select File",
+    "or": "or click",
+    "browse": "Browse",
+    "existingData": "Existing Data",
+    "uploadedData": "Uploaded Data",
+    "lastEntry": "Last Entry",
+    "fileHash": "File Hash",
+    "clearData": "Clear Data",
+    "sameDataWarning": "This file has already been uploaded",
+    "overwriteWarning": "The uploaded data is older or has fewer entries than the existing data",
+    "overwrite": "Overwrite",
+    "cancel": "Cancel",
+    "dataUpdated": "Data has been updated with newer information",
+    "dataOverwritten": "Data has been overwritten with uploaded data",
+    "firstUploadSuccess": "Data upload was successful",
+    "totalEntries": "Total Entries",
+    "entriesByState": "Entries by State",
+    "states": {
+      "terminated": "Terminated",
+      "issued": "Issued",
+      "reserved": "Reserved",
+      "assigned": "Assigned",
+      "stored": "Stored"
+    },
+    "noDataStored": "No data stored",
+    "newData": "New data"
+  },
+  "plateAvailability": {
+    "noData": {
+      "text": "To check potential availability of plate numbers,",
+      "button": "upload issued and reserved plate numbers here",
+      "suffix": "."
+    },
+    "hasData": {
+      "text": "Page checks availability of plate numbers up to date {date}.",
+      "button": "Upload updated issued and reserved plate numbers here",
+      "suffix": "."
+    }
+  },
+  "vowelIndicator": {
+    "errors": {
+      "consecutiveVowels": "Cannot have two skipped vowels next to each other",
+      "tooManyVowels": "Too many vowels to fit in plate number"
+    }
+  }
+}

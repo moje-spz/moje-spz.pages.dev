@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "svelte.svelte-vscode",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-playwright.playwright",
+    "ms-vscode.test-adapter-converter",
+    "firefox-devtools.vscode-firefox-debug",
+    "ms-azuretools.vscode-docker",
+    "heybourn.headwind"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "appTitle": "Moje SPZ",
+  "icons": {
+    "bookmark": "Uložit",
+    "bookmarkFilled": "Uloženo",
+    "check": "Skopírováno"
+  },
+  "input": {
+    "plate": "Registrační značka",
+    "placeholder": "Zadejte registrační značku..."
+  },
+  "saved": {
+    "title": "Uložené značky",
+    "empty": "Žádné uložené značky",
+    "delete": "Smazat",
+    "deleteAll": "Smazat vše"
+  },
+  "menu": {
+    "about": "O aplikaci",
+    "savedPlates": "Uložené značky",
+    "toggle": "Přepnout menu",
+    "close": "Zavřít menu",
+    "open": "Otevřít menu",
+    "label": "Navigační menu",
+    "closeOverlay": "Zavřít menu"
+  },
+  "AboutInline": {
+    "title": "Navrhněte si registrační značku na přání"
+  },
+  "AboutIntro": [
+    "Ze zadaného slova, nebo krátkého textu vám stránka ukáže, jak by mohla vypadat značka na přání pro osobní auta v Česku.",
+    "Stránka kontroluje některé požadavky na formu a strukturu značek a někdy opraví, nebo vyřeší porušení požadovaných vlastností."
+  ],
+  "AboutDetails": [
+    {
+      "type": "ul",
+      "content": [
+        "vstupní text je na značce zobrazen velkými písmeny",
+        "značka je vizuálně rozdělena na dvě části (3 a 5 pozic)",
+        "znaky mimo písmen a čísel jsou vynechány",
+        "diakritická znaménka (háčky, čárky, kroužek a podobně) jsou z písmen odstraněny",
+        "nepovolené písmena na značce jsou automaticky nahrazeny za podobně vypadající čísla",
+        "chybí-li alespoň jedno číslo na značce, automaticky doplní číslo",
+        "zkusí se vyhnout značce začínající EL",
+        "kratší vstup než 8 znaků doplní doplňkovými znaky",
+        "delší vstup než 8 znaků zkusí zkrátit vynecháním samohlásek"
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Stránka, naopak, nekontroluje požadavky:"
+    },
+    {
+      "type": "ul",
+      "content": [
+        "značka nesmí \"obsahovat hanlivé nebo pohoršující výrazy\"",
+        "požadavky na značky pro motocykly (7 znaků) a mopedy (5 znaků)"
+      ]
+    },
+    {
+      "type": "p_and_a",
+      "content": [
+        {
+          "type": "plain",
+          "text": "Stránka má k dispozici "
+        },
+        {
+          "type": "a",
+          "href": "https://github.com/moje-spz/moje-spz.pages.dev",
+          "text": "otevřený zdrojový kód"
+        },
+        {
+          "type": "plain",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "expandableDetails": {
+    "showMore": "Zobrazit více",
+    "showLess": "Zobrazit méně"
+  },
+  "aboutModal": {
+    "title": "O stránce",
+    "button": "O stránce",
+    "footer": {
+      "sourceCode": "Otevřeným zdrojovým kódem",
+      "aboutLink": "O této stránce",
+      "plateDataDate": "Dostupnost značek k datu: {date}",
+      "uploadPlateData": "Nahrát data značek"
+    },
+    "portalLink": {
+      "prefix": "Pro pořízení registrační značky na přání, pokračujte na",
+      "linkText": "Registrační značka na přání na Portálu Občana",
+      "url": "https://pruvodce.gov.cz/porizeni-vozidla/registracni-znacka-na-prani",
+      "postfix": "."
+    }
+  },
+  "hamburgerMenu": {
+    "open": "Otevřít menu",
+    "close": "Zavřít menu",
+    "label": "Navigační menu",
+    "closeOverlay": "Zavřít překrytí menu",
+    "closeButton": "Tlačítko zavření menu"
+  },
+  "languageSelector": {
+    "label": "Jazyk",
+    "auto": "Automaticky",
+    "en": "Anglicky",
+    "cs": "Česky"
+  },
+  "themeToggle": {
+    "label": "Motiv",
+    "auto": "Automaticky",
+    "light": "Světlý",
+    "dark": "Tmavý",
+    "toggle": "Přepnout motiv"
+  },
+  "inputSection": {
+    "label": "Vstup",
+    "placeholder": "Text značky na přání",
+    "hideLarge": "Skrýt velký vstup",
+    "showLarge": "Zobrazit velký vstup",
+    "addPlate": "Přidat další značku",
+    "addPlateDisabledTitle": "Nejdříve vyplňte aktuální značku",
+    "removePlate": "Odstranit sekci značky",
+    "clearInput": "Vymazat vstup",
+    "warnings": {
+      "diacritics": "Text obsahuje diakritiku",
+      "symbols": "Text obsahuje symboly",
+      "whitespace": "Text obsahuje mezery",
+      "maxLines": "Překročen maximální počet řádků",
+      "nonLatin": "Text obsahuje znaky mimo latinku"
+    },
+    "errors": {
+      "nonLatin": "Znaky mimo latinku nejsou povoleny",
+      "invalidChars": "Nalezeny neplatné znaky",
+      "noNumber": "Je vyžadováno alespoň jedno číslo",
+      "vowelPlacement": "Neplatné umístění samohlásek",
+      "tooLong": "Vstup je příliš dlouhý",
+      "adjacentSkippedVowels": "Nelze mít dvě přeskočené samohlásky vedle sebe",
+      "tooManyConsonants": "Příliš mnoho souhlásek pro SPZ",
+      "noPositionForNumber": "Nelze vytvořit platnou SPZ: není místo pro číslo"
+    }
+  },
+  "multiLineInput": {
+    "multipleLink": "Zadat text pro více značek najednou"
+  },
+  "multiLineInputModal": {
+    "title": "Více značek",
+    "placeholder": "Zadejte text pro více značek...",
+    "help": "Zadejte až 10 značek, jednu na řádek.",
+    "ok": "OK",
+    "cancel": "Zrušit"
+  },
+  "resultsSection": {
+    "title": "Výsledky",
+    "removedVowels": "Odstraněné samohlásky",
+    "invalidInput": "Neplatný vstup"
+  },
+  "savedPlates": {
+    "title": "Uložené SPZ",
+    "empty": "Zatím žádné uložené SPZ",
+    "clear": "Vymazat uložené SPZ",
+    "copy": "Kopírovat",
+    "copyAll": "Kopírovat vše",
+    "remove": "Odstranit",
+    "input": "Vstup",
+    "plate": "SPZ",
+    "date": "Datum",
+    "vowels": "Samohlásky",
+    "status": "Stav"
+  },
+  "plateDisplay": {
+    "copyToClipboard": "Zkopírovat do schránky",
+    "savePlate": "Uložit značku",
+    "alreadySaved": "Značka je již uložena",
+    "displaySavedPlate": "Zobrazit uloženou značku",
+    "changeInInputError": "Tento znak pochází ze vstupu a nelze jej změnit.",
+    "changeInInputTip": "Změňte znak ve vstupu.",
+    "diacriticsWarning": "Z písmen byla odstraněna diakritická znaménka",
+    "shiftButton": {
+      "boundaryReachedLeft": "Nelze posunout doleva - dosažen začátek značky",
+      "boundaryReachedRight": "Nelze posunout doprava - dosažen konec značky",
+      "nonPaddingCharFoundLeft": "Nelze posunout doleva - blokováno jiným znakem",
+      "nonPaddingCharFoundRight": "Nelze posunout doprava - blokováno jiným znakem"
+    },
+    "dragToShift": "Přetažením posunete znaky",
+    "plateAvailable": "SPZ by mohla být k dispozici",
+    "plateUnavailable": "SPZ není k dispozici - je již {state}",
+    "uploadCsvToCheck": "Nahrajte CSV soubor pro kontrolu dostupnosti SPZ",
+    "states": {
+      "terminated": "Ukončená",
+      "issued": "Vydaná",
+      "reserved": "Rezervovaná",
+      "assigned": "Přidělená",
+      "stored": "Uložená"
+    },
+    "noData": "Žádná data o dostupnosti",
+    "available": "Dostupná",
+    "unavailable": "Nedostupná - {state}",
+    "defaultPaddingChar": "Výplň",
+    "defaultPaddingCharAuto": "Automaticky (první dostupný)"
+  },
+  "csvUpload": {
+    "title": "Data dostupnosti značek na přání",
+    "dropInstructions": "Přetáhněte CSV soubor sem",
+    "instructions": {
+      "intro": "Stáhněte \"Výpis vydaných a rezervovaných RZP\" z",
+      "linkText": "dataovozidlech.cz/vyhledavani",
+      "url": "https://dataovozidlech.cz/vyhledavani",
+      "outro": "a nahrajte ho zde"
+    },
+    "selectFile": "Vybrat soubor",
+    "existingData": "Existující data",
+    "uploadedData": "Nahraná data",
+    "lastEntry": "Poslední záznam",
+    "fileHash": "Hash souboru",
+    "clearData": "Vymazat data",
+    "sameDataWarning": "Tento soubor již byl nahrán",
+    "olderDataWarning": "Nahraná data jsou starší nebo obsahují méně záznamů než existující data",
+    "overwriteWarning": "Nahrávaná data jsou starší nebo obsahují méně záznamů než existující data",
+    "overwrite": "Přepsat",
+    "cancel": "Zrušit",
+    "dataUpdated": "Data byla aktualizována novějšími informacemi",
+    "dataOverwritten": "Data byla přepsána nahranými daty",
+    "firstUploadSuccess": "Data byla úspěšně nahrána",
+    "hashType": "Hashovací funkce",
+    "totalEntries": "Celkem záznamů",
+    "entriesByState": "Záznamy podle stavu",
+    "states": {
+      "terminated": "Ukončená",
+      "issued": "Vydaná",
+      "reserved": "Rezervovaná",
+      "assigned": "Přidělená",
+      "stored": "Uložená"
+    },
+    "newData": "Nová data",
+    "or": "nebo stiskněte",
+    "browse": "Procházet"
+  },
+  "plateAvailability": {
+    "noData": {
+      "text": "Pro kontrolu dostupnosti značek",
+      "button": "nahrajte data vydaných a rezervovaných značek",
+      "suffix": "."
+    },
+    "hasData": {
+      "text": "Stránka kontroluje dostupnost značek k datu {date}.",
+      "button": "Nahrajte aktualizovaná data vydaných a rezervovaných značek",
+      "suffix": "."
+    }
+  },
+  "vowelIndicator": {
+    "errors": {
+      "consecutiveVowels": "Nelze mít dvě přeskočené samohlásky vedle sebe",
+      "tooManyVowels": "Příliš mnoho samohlásek pro SPZ"
+    }
+  },
+  "settings": {
+    "title": "Nastavení",
+    "plateAvailability": {
+      "label": "Data o dostupnosti značek",
+      "noData": "Žádná data o dostupnosti značek, ",
+      "noDataTitle": "Žádná data o dostupnosti značek",
+      "setup": "nastavit zde",
+      "dataAvailable": "Dostupnost značek k datu: {date}.",
+      "update": "Aktualizovat"
+    }
+  },
+  "common": {
+    "close": "Zavřít"
+  }
+}

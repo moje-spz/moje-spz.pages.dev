@@ -1,0 +1,21 @@
+version = 1
+
+[[annotations]]
+path = [".vscode/*", ".github/*", "tsconfig.json", "vite.config.ts", "svelte.config.js", "playwright.config.ts", "tailwind.config.js", "scripts/*", "tests/*", "*.config.js", "*.config.ts", "*.config.cjs", "jsconfig.json", "package.json", "vitest.setup.ts", "static/*", "src/*.html", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte", "tests/**/*.ts"]
+SPDX-FileCopyrightText = "2025 Pavol Babinčák"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["static/lang/*.json", "docs/*", "DEVELOPERS.md", "README.md", "CONTRIBUTING.md", "REQUIREMENTS.md", "KNOWN_ISSUES.md"]
+SPDX-FileCopyrightText = "2025 Pavol Babinčák"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [".gitignore", ".pre-commit-config.yaml", ".editorconfig", ".devcontainer/Dockerfile", ".devcontainer/devcontainer.json", "yarn.lock", "playwright-report/*", "package-lock.json", "REUSE.toml", ".markdownlint.json", ".node-version", "Dockerfile"]
+SPDX-FileCopyrightText = "2025 Pavol Babinčák"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["plate_availability.json"]
+SPDX-FileCopyrightText = "Ministerstvo Dopravy"
+SPDX-License-Identifier = "CC-BY-4.0"

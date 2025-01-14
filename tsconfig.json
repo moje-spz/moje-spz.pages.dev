@@ -1,0 +1,45 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "types": [
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ]
+  },
+  "include": [
+    ".svelte-kit/ambient.d.ts",
+    ".svelte-kit/types/**/$types.d.ts",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "vitest.setup.ts",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "tests/lib/**/*.ts",
+    "tests/lib/**/*.js",
+    "tests/routes/**/*.ts",
+    "tests/routes/**/*.js",
+    "tests/mocks/**/*.ts",
+    "tests/mocks/**/*.js",
+    "tests/setup.ts",
+    "tests/playwright/**/*.ts",
+    "tests/playwright/**/*.js"
+  ],
+  "exclude": [
+    "node_modules/**",
+    ".svelte-kit/**",
+    "build/**",
+    "coverage/**",
+    ".vscode/firefox.prefs.js",
+    ".vscode/firefox-tmp/**"
+  ]
+}

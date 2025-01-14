@@ -1,0 +1,46 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "testing.automaticallyOpenPeekView": "never",
+  "playwright.env": {
+    "CI": "0"
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "[playwright]": {
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single"
+  },
+  "files.associations": {
+    "playwright.config.ts": "playwright",
+    "Dockerfile*": "dockerfile",
+    "docker-compose.yml": "dockercompose"
+  },
+  "window.autoDetectColorScheme": true,
+  "i18n-ally.localesPaths": [
+    "static/lang"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.enabledFrameworks": [
+    "svelte"
+  ],
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "i18n-ally.namespace": true,
+  "prettier.documentSelectors": [
+    "**/*.svelte"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "svelte.enable-ts-plugin": true,
+  "css.customData": [
+    "tailwind.json"
+  ]
+}

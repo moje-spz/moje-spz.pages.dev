@@ -1,0 +1,53 @@
+{
+  "name": "Moje SPZ development",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "svelte.svelte-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.vscode-typescript-next",
+        "ms-playwright.playwright",
+        "ms-vscode.vscode",
+        "ZixuanChen.vitest-explorer",
+        "vitest.explorer",
+        "ms-vscode.test-adapter-converter",
+        "MarkLarah.pre-commit-vscode"
+      ],
+      "settings": {
+        "pre-commit-hook.run": "onSave",
+        "pre-commit-hook.installHooks": true
+      }
+    }
+  },
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh && export PATH=\"/home/node/.cargo/bin:$PATH\" && uv tool install pre-commit && uv tool install reuse && npm install && npx playwright install --with-deps && pre-commit install --install-hooks",
+  "remoteUser": "node",
+  "forwardPorts": [
+    5173,
+    9323
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "SvelteKit Dev Server",
+      "onAutoForward": "notify"
+    },
+    "9323": {
+      "label": "Playwright Report",
+      "onAutoForward": "notify"
+    }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.gitconfig,target=/home/node/.gitconfig,type=bind,readonly"
+  ]
+}

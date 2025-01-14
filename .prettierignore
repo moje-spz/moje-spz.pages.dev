@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2025 Pavol Babinčák
+
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
